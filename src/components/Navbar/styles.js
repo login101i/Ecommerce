@@ -17,6 +17,9 @@ export default makeStyles((theme) => ({
         display: 'flex',
         textDecoration: 'none',
     },
+    underCart:{
+        fontSize:11
+    },
     image: {
         marginRight: '10px',
     },
@@ -28,6 +31,11 @@ export default makeStyles((theme) => ({
     },
     grow: {
         flexGrow: 1,
+    },
+    button:{
+        display:'flex',
+        flexDirection:'column',
+        justifyContent:'center',
     },
     search: {
         position: 'relative',
@@ -65,4 +73,5 @@ export default makeStyles((theme) => ({
             width: '20ch',
         },
     },
+   
 }));

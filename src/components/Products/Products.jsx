@@ -23,7 +23,7 @@ import useStyles from './styles'
 // ]
 
 
-const Products = ({products, onAddToCart}) => {
+const Products = ({products, onAddToCart, getMe}) => {
 
     const classes=useStyles()
     return (
@@ -35,6 +35,7 @@ const Products = ({products, onAddToCart}) => {
                         <Product
                             product={product}
                             onAddToCart={onAddToCart}
+                            getMe={getMe}
                         />
                     </Grid>
                 ))}

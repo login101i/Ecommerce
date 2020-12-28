@@ -5,6 +5,9 @@ import { Typography, Button, Card, CardActions, CardContent, CardMedia } from '@
 import useStyles from './styles'
 
 function CartItem({ item, onUpdateCartQty, onRemoveFromCart }) {
+    console.log('ItemId________________________')
+    console.log(item.id)
+    console.log(item.quantity)
 
     const classes = useStyles()
     return (
